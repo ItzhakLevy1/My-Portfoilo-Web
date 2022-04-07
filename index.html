@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://kit.fontawesome.com/252af1c3af.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>I</span>tzhak <span>L</span>evy</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+          
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">Education/Certificates</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="videoDiv">
+      
+      </div>
+    <div class="hero container">
+      <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h1 style="font-size: xx-large; font-size: 500%;"><b> Hello, My Name is Itzhak Levy.</b><span></span>
+           
+        <!-- I'm a self taught developer. --> </h1>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 style="font-size: x-large; ">SKILLS:</h1>
+            <br/>
+            <br />
+            <br />
+
+            <p style="font-size: large; color: white;">
+                HTML, CSS <br>
+                Javascript / ES6<br>
+                MERN STACK - MongoDB, Express, React, Node<br>
+                jQuery<br>
+                Java<br>
+                Python<br>
+                Backend REST API<br>
+                Data management with MongoDB , JSON, AJAX, XML<br>
+                Chrome Extensions<br>
+                Command line / npm<br>
+                Github<br>
+                Wordpress</p>
+        
+        <a href="#projects" type="button" class="cta">projects</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div id="project1" class="project-item" style="margin: 20px;">
+          <div class="project-info">
+            <button class="buttonsX2" onclick="goToP1()" id="btnProject1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                A React Project 
+              </button>
+          
+          </div>
+          <div class="project-img">
+            <img src="images/c1.PNG" alt="img">
+          </div>
+        </div>
+<hr id="hr1">
+        <div class="project-item">
+          <div class="project-info">
+            <button class="buttonsX2" onclick="goToP2()" id="btnProject2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              HTML, CSS, Javascript <br>
+              <br>
+              Projects
+            </button>
+          </div>
+          <div class="project-img">
+            <img src="/images/hcj.PNG" alt="img">
+          </div>
+        </div>
+<hr id="hr1">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="/images/free code camp web sertification.PNG" alt="img">
+          <img src="/images/A_Computer_Science_Student_at_the_Open_University-removebg-preview.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h6 class="section-title">
+          
+           <span>Responsive Web Design (300 hours)</span></h6>
+           <div class="dropdown">
+            <button class="dropbtn" class="cta">Including:</button>
+            <div class="dropdown-content">
+              <a href="#">Basic HTML and HTML5</a>
+              <a href="#">Basic CSS</a>
+              <a href="#">Applied Visual Design</a>
+              <a href="#">Applied Accessibility</a>
+              <a href="#">Responsive Web Design Principles</a>
+              <a href="#">CSS Flexbox</a>
+              <a href="#">CSS Grid</a>
+              <a href="#">Responsive Web Design Projects</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+ 
+  <!-- End Contact Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+      <section id="contact">
+  
+          <h1 class="section-header">CON<span style="color: rgb(255, 187, 0);">T</span>ACT</h1>
+          
+          <div class="contact-wrapper">
+            
+              <!---------------- 
+        
+              CONTACT PAGE LEFT 
+            
+              -----------------> 
+            
+            <form class="form-horizontal" role="form" method="post" action="contact.php" data-netlify="true">
+               
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input style="width: 400px; margin: 1%; height: 40px;border-radius: 5px; border: solid gray 2px; padding: 10px;" type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+                </div>
+              </div>
+        
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input  style="width: 400px; margin: 1%; height: 40px; border-radius: 5px; border: solid gray 2px; padding: 10px;" type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+                </div>
+              </div>
+        
+              <textarea  style="width: 400px; margin: 1%; border-radius: 5px; padding: 10px; border: solid gray 2px;" class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+              
+              <button style="margin: 1%; border-radius: 10px;" class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="button">
+                  <i class="fa fa-paper-plane"><br></i><span class="send-text" style="margin-left: 10px;">SEND</span>
+                </div>
+              
+              </button>
+              
+            </form>
+            
+              <!---------------- 
+        
+              CONTACT PAGE RIGHT 
+            
+              -----------------> 
+            
+              <div class="direct-contact-container">
+        
+                <ul class="contact-list">
+                  <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Central district | Israel</span></i></li>
+                  
+                  <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:0544300508" title="Give me a call">0544300508</a></span></i></li>
+                  
+                  <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">Itzhaklevydev@gmail.com</a></span></i></li>
+                  
+                </ul>
+        
+                <hr>
+                <ul class="social-media-list">
+
+                  <li onclick="goToGithub()"><a onclick="goToGithub()" target="_blank" class="contact-icon">
+                    <i class="fa fa-github" aria-hidden="true"></i></a>
+                  </li>
+
+                  <li onclick="goToCodeSandBox()"><a onclick="goToCodeSandBox()" target="_blank" class="contact-icon">
+                    <i class="fa fa-square"></i></a>
+                  </li>
+
+                  <li onclick="goToLinkedin()"><a onclick="goToLinkedin()" target="_blank" class="contact-icon">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </li>
+                
+                  <li onclick="goToCodePen()"><a target="_blank" class="contact-icon">
+                    <i class="fa fa-codepen" aria-hidden="true"></i></a> 
+                  </li>
+                </ul>
+                <hr>
+        
+                <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        
+              </div>
+            
+          </div>
+  
+</section>  
+  
+  
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  <!-- Footer -->
+    
+  <!-- End Footer -->
+  
+</div>
+<div class="back-to-top">Back to Top</div>
+</body>
+</html>
